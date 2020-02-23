@@ -2,12 +2,16 @@
 title: "Basic LogIn Modularizado"
 author: "Augusto Hassel"
 date: 2020-02-21T01:45:14-03:00
-tags: ["Modules", "Shiny"]
+featured: true
+image: "/img/login.gif"
+description: "Basic Login Module in Shiny"
+tags: ["Modules", "Shiny", "Dashboard", "BusinessIntelligence"]
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+<br>
 
 > Para los ansiosos como yo: aquí el [proyecto en GitHub](https://github.com/augustohassel/BasicLogInModule) desde donde pueden obtener una versión básica funcional!
 
@@ -19,7 +23,10 @@ Desde el momento en que empecé a armar tableros en Shiny me encontré con la ne
 
 Se que existen servicios como [Auth0](https://auth0.com/) o, si tienen suerte, la versión paga de [Shiny Server Pro](https://docs.rstudio.com/shiny-server/#authentication-security) desde la cual pueden validar usuarios usando LDAP, Active Directory y otros. Incluso también podrían usar [Shiny Proxy](https://www.shinyproxy.io/configuration/#authentication), el cual es open source, para que la validación del usuario quede en manos de alguno de los tantos métodos existentes. 
 
-Por curiosidad, y en ciertos momentos por necesidad, fui creando un log-in que pudiese manejar no solo el ingreso del usuario, sino también los distintos tipos de permisos intenros y vistas disponibles una vez dentro de la aplicación. 
+Por curiosidad, y en ciertos momentos por necesidad, fui creando un log-in que pudiese manejar no solo el ingreso del usuario, sino también los distintos tipos de permisos internos y vistas disponibles una vez dentro de la aplicación. 
+
+Este es el resultado!
+<p align="center" width="700px" height="auto"> <img src='/img/login.gif'/></p>
 
 ***
 ### Supuestos y definiciones
@@ -31,7 +38,8 @@ Por curiosidad, y en ciertos momentos por necesidad, fui creando un log-in que p
 
 Actualmente **cargo módulos de dos maneras distintas** dependiendo de si el módulo es específico del tablero en que me encuntro trabajando o si es transversal a todos los tableros (en el caso del login, es el mismo módulo para todos mis tableros). 
 
-Con la **primer opción** guardo todos los módulos en una carpeta llamada "modules" y luego hago un source desde *global.R*: `invisible(lapply(list.files(path = "modules", full.names = T), source))`.  
+Con la **primer opción** guardo todos los módulos en una carpeta llamada "modules" y luego hago un source desde *global.R*: `invisible(lapply(list.files(path = "modules", full.names = T), source))`. 
+
 Con la **segunda opción** guardo los módulos en un repositorio en GitHub y luego hago un source del contenido directamente desde ahí! Con esto me aseguro de que solo tengo que modificar en un solo lugar y esto afecta a todos los tableros! Algo así sería:
 
 ```{r source github, eval=FALSE}
@@ -67,12 +75,13 @@ El modal que muestra el login contiene la información típica, **pide un usuari
 
 Los usuarios creados para la versión demo están cargados en el *server.R* y son: 
 
+<div align="center">
 |Usuario   <|> Contraseña|
 |:----------|-----------:|
 |demo       |demo        |
 |juan       |juan        |
 |pedro      |pedro       | 
-|           |            |
+</div>
 <br>
 
 > **Aclaración**: solo por ser un caso de ejemplo estoy guardando los usuarios en un data frame en el server. En producción lo tengo todo en bases de datos en la nube en GCloud.
@@ -175,4 +184,4 @@ Así es como llegamos al final y logramos tener un log-in básico modularizado! 
 
 Espero que haya servido este primero posteo! Todo feedback es bienvenido!
 
-> **Bonus Track**: Sigo a varios repositorios interesante sobre Shiny en Github: https://github.com/augustohassel?tab=stars
+> **Bonus Track**: Sigo a varios repositorios interesante sobre Shiny en Github: miralos [aquí](https://github.com/augustohassel?tab=stars)

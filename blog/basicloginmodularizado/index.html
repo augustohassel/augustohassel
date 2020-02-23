@@ -109,6 +109,7 @@
     
 
 
+<p><br></p>
 <blockquote>
 <p>Para los ansiosos como yo: aquí el <a href="https://github.com/augustohassel/BasicLogInModule">proyecto en GitHub</a> desde donde pueden obtener una versión básica funcional!</p>
 </blockquote>
@@ -117,7 +118,11 @@
 <h3>La motivación</h3>
 <p>Desde el momento en que empecé a armar tableros en Shiny me encontré con la necesidad de brindar permisos a usuarios. Esto significa que un usuario pueda, además de ver o no el contenido completo del sitio, obtener distintos tipos de acceso incluso dentro de las aplicaciones.</p>
 <p>Se que existen servicios como <a href="https://auth0.com/">Auth0</a> o, si tienen suerte, la versión paga de <a href="https://docs.rstudio.com/shiny-server/#authentication-security">Shiny Server Pro</a> desde la cual pueden validar usuarios usando LDAP, Active Directory y otros. Incluso también podrían usar <a href="https://www.shinyproxy.io/configuration/#authentication">Shiny Proxy</a>, el cual es open source, para que la validación del usuario quede en manos de alguno de los tantos métodos existentes.</p>
-<p>Por curiosidad, y en ciertos momentos por necesidad, fui creando un log-in que pudiese manejar no solo el ingreso del usuario, sino también los distintos tipos de permisos intenros y vistas disponibles una vez dentro de la aplicación.</p>
+<p>Por curiosidad, y en ciertos momentos por necesidad, fui creando un log-in que pudiese manejar no solo el ingreso del usuario, sino también los distintos tipos de permisos internos y vistas disponibles una vez dentro de la aplicación.</p>
+Este es el resultado!
+<p align="center" width="700px" height="auto">
+<img src='/img/login.gif'/>
+</p>
 <hr />
 </div>
 <div id="supuestos-y-definiciones" class="section level3">
@@ -130,8 +135,8 @@
 <div id="manos-a-la-obra" class="section level3">
 <h3>Manos a la obra!</h3>
 <p>Actualmente <strong>cargo módulos de dos maneras distintas</strong> dependiendo de si el módulo es específico del tablero en que me encuntro trabajando o si es transversal a todos los tableros (en el caso del login, es el mismo módulo para todos mis tableros).</p>
-<p>Con la <strong>primer opción</strong> guardo todos los módulos en una carpeta llamada “modules” y luego hago un source desde <em>global.R</em>: <code>invisible(lapply(list.files(path = "modules", full.names = T), source))</code>.<br />
-Con la <strong>segunda opción</strong> guardo los módulos en un repositorio en GitHub y luego hago un source del contenido directamente desde ahí! Con esto me aseguro de que solo tengo que modificar en un solo lugar y esto afecta a todos los tableros! Algo así sería:</p>
+<p>Con la <strong>primer opción</strong> guardo todos los módulos en una carpeta llamada “modules” y luego hago un source desde <em>global.R</em>: <code>invisible(lapply(list.files(path = "modules", full.names = T), source))</code>.</p>
+<p>Con la <strong>segunda opción</strong> guardo los módulos en un repositorio en GitHub y luego hago un source del contenido directamente desde ahí! Con esto me aseguro de que solo tengo que modificar en un solo lugar y esto afecta a todos los tableros! Algo así sería:</p>
 <pre class="r"><code>eval(
   GET(url = &quot;https://api.github.com/repos/XXXXX.R&quot;, 
       authenticate(&quot;username&quot;, &quot;token&quot;), 
@@ -155,6 +160,7 @@ Con la <strong>segunda opción</strong> guardo los módulos en un repositorio en
 <h4>Module Server</h4>
 <p>El modal que muestra el login contiene la información típica, <strong>pide un usuario y una contraseña</strong>, y además permite volver a resetear el password! Si quieren probar el reseteo del password en funcionamiento, pueden hacerlo pidiéndome un usario para la <a href="https://demo.hasselpunk.com/">versión demo del BO Companion</a>, donde básicamente se envía un correo usando algún SMTP (<em>yo uso mailgun o mandrill según el cliente</em>) al correo registrado y luego se lee el hash que se genera en el link en la URL para verificar que el usaurio en efecto fue el que pidió el cambio de contraseña.</p>
 <p>Los usuarios creados para la versión demo están cargados en el <em>server.R</em> y son:</p>
+<div align="center">
 <table>
 <thead>
 <tr class="header">
@@ -175,12 +181,9 @@ Con la <strong>segunda opción</strong> guardo los módulos en un repositorio en
 <td align="left">pedro</td>
 <td align="right">pedro</td>
 </tr>
-<tr class="even">
-<td align="left"></td>
-<td align="right"></td>
-</tr>
 </tbody>
 </table>
+</div>
 <p><br></p>
 <blockquote>
 <p><strong>Aclaración</strong>: solo por ser un caso de ejemplo estoy guardando los usuarios en un data frame en el server. En producción lo tengo todo en bases de datos en la nube en GCloud.</p>
@@ -265,7 +268,7 @@ Con la <strong>segunda opción</strong> guardo los módulos en un repositorio en
 <p>Así es como llegamos al final y logramos tener un log-in básico modularizado! Si hacen un clone del repositorio y corren la aplicación de Shiny, van a poder interactuar y seguramente verán algunas cosas extras que están dando vuelta.</p>
 <p>Espero que haya servido este primero posteo! Todo feedback es bienvenido!</p>
 <blockquote>
-<p><strong>Bonus Track</strong>: Sigo a varios repositorios interesante sobre Shiny en Github: <a href="https://github.com/augustohassel?tab=stars" class="uri">https://github.com/augustohassel?tab=stars</a></p>
+<p><strong>Bonus Track</strong>: Sigo a varios repositorios interesante sobre Shiny en Github: miralos <a href="https://github.com/augustohassel?tab=stars">aquí</a></p>
 </blockquote>
 </div>
 </div>
@@ -277,8 +280,21 @@ Con la <strong>segunda opción</strong> guardo los módulos en un repositorio en
     
       <li><a class="tag" href="/tags/shiny">Shiny</a></li>
     
+      <li><a class="tag" href="/tags/dashboard">Dashboard</a></li>
+    
+      <li><a class="tag" href="/tags/businessintelligence">BusinessIntelligence</a></li>
+    
 </ul>
 
+    <div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://hasselpunk.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
   </div>
 </section>
 
