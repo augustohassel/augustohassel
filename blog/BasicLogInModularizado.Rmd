@@ -3,7 +3,7 @@ title: "Basic LogIn Modularizado"
 author: "Augusto Hassel"
 date: 2020-02-21T01:45:14-03:00
 featured: true
-image: "img/login.png"
+image: "/img/login.png"
 description: "Cómo armar un login básico modular en Shiny"
 tags: ["Modules", "Shiny", "Dashboard", "BusinessIntelligence"]
 ---
