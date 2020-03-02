@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on HasselPunk</title>
@@ -53,6 +53,15 @@
       <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/gcloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>git</title>
+      <link>/tags/git/</link>
+      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      
+      <guid>/tags/git/</guid>
       <description></description>
     </item>
     
@@ -116,15 +125,6 @@
       <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/rstudio-server/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>git</title>
-      <link>/tags/git/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
-      
-      <guid>/tags/git/</guid>
       <description></description>
     </item>
     

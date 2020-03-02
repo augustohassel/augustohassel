@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Restfull API on HasselPunk</title>
@@ -17,9 +17,7 @@
       <pubDate>Thu, 02 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/projects/creations/rrofex/</guid>
-      <description>rRofex es una librería de R que permite conectarse al Mercado de Futuros de Matba Rofex.
-Para mayor información sobre la misma, por favor ver la documentación completa en el GitHub de Matba Rofex.
-Ir a la presentación</description>
+      <description></description>
     </item>
     
   </channel>
