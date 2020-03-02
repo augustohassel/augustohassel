@@ -1,0 +1,72 @@
+---
+title: "HasselPunk BO Companion"
+author: "Augusto Hassel"
+date: 2020-01-04T22:44:05-03:00
+featured: true
+image: "/img/hasselpunk-logo.png"
+link: "https://demo.hasselpunk.com"
+description: "Es una suite de soluciones en la nube orientada a ayudar y complementar a quienes trabajan dentro de una Sociedad de Bolsa."
+tags: ["R LanG", "Shiny", "tidyverse", "PlumbeR", "GCloud", "git", "GitHub", "RStudio", "RStudio Server", "Mailgun", "Mandrill"]
+---
+
+<p>HasselPunk BO Companion es una suite de soluciones dedicada a agilizar procesos dentro de una Sociedad de Bolsa.</p>
+<p>La instalación básica consta de los siguientes tableros:<br>
+<ul>
+  <li><strong>Home</strong>. El punto de partida: <a href='http://demo.hasselpunk.com/' target='_blank'>ir!</a></li>
+  <li><strong>Administrador</strong>. Gestión y administración de usuarios.</li>
+  <li><strong>Recursos Humanos</strong>. Gestión y administración de personas.</li>
+  <li><strong>Comercial</strong>. Acceso a información y análisis de clientes.</li>
+</ul>
+</p>
+
+<h4>Tablero Administrador</h4>
+<p align="center"><img src='/img/hasselpunk-administrador-1.png' width=auto height=300px></p>
+<p>Dentro de este tablero se puede:
+<ul>
+  <li><i>Crear usuarios</i></li>
+  <li><i>Recuperar contraseñas</i></li>
+  <li><i>Gestionar permisos</i>: cada tablero tiene 3 niveles de permisos distintos para poder habilitar la información únicamente a los usuarios que la necesiten</li>
+  <li><i>Ver últimas conexiones</i></li>
+  <li><i>Vincular managers con usuarios</i>: esto es muy útil cuando se quiere brindar permisos al tablero de Comercial a los productores y/o managers de cuentas, para que vean únicamente sus cuentas vinculadas</li>
+</ul>
+</p>
+
+<h4>Tablero Recursos Humanos</h4>
+<p align="center"><img src='/img/hasselpunk-administrador-2.png' width=auto height=300px></p>
+<p>Aquí se podrá:
+<ul>
+  <li><i>Dar de alta personas</i>. Estas pueden ser parte del personal o productores. En ambos casos se puede guardar información como estudios, domicilio, fecha de nacimiento y otros.</li>
+  <li><i>Se tiene disponible un mapa con el domicilio registrado de las personas en la nómina</i></li>
+</ul>
+</p>
+
+<h4>Tablero Comercial</h4>
+<p align="center"><img src='/img/hasselpunk-administrador-3.png' width=auto height=300px></p>
+<p>Este es uno de los tableros centrales desde el cual se puede:
+<ul>
+  <li>Ver rápidamente el AUM de los clientes que estén vinculados al ususario (un administrador podrá ver todo, en tanto que un usuario que permiso por rol, solo verá los clientes vinculados al mismo).</li>
+  <li>Filtrar las carteras de los clientes y descargarse la información necesaria para un posterior análisis.</li>
+  <li>Ver resumenes de posición por cliente, desglosados según tenencia, cuentas corrientes, posiciones en garantía, etc.</li>
+  <li>Obtener resumen y estadísticas sobre operaciones y comisiones generadas según tipo de productos agrupadas por día, semana, mes o año.</li>
+  <li>Obtener un análisis del ranking de comisiones generadas por los comitentes, obteniendo el ticket promedio, cantidad de operaciones y porcentaje de rotación de cartera.</li>
+</ul>
+</p>
+
+<p>Si bien estas son algunas de las características de los tableros, cabe destacar que además se ofrecen soluciones más avanzadas e <strong>implementaciones ad-hoc</strong>, como:
+<ul>
+  <li>Envío de reportes por mail, slack o telegram.</i>
+  <li>Procesamiento y automatización de rutinas vinculadas a datos.</li>
+  <li>Armado de algorítmos de recomendación.</li>
+  <li>Clusterización/segmentación de clientes.</li>
+</ul>
+</p>
+
+<p>Las principales características técnicas del producto:
+<ul>
+  <li>Completamente deployado en la nube en Google Cloud</i>
+  <li>Se vincula con Google Analytics</i>
+  <li>Open Source! Se usa un servidor de Shiny en su versión open source, así como también RStudio Server Open Source.</i>
+  <li>Para el envío de correos se utiliza Mandrill o Mailgun según la preferencia del cliente.</li>
+</ul>
+
+<p><strong>Si te interesa obtener un usuario demo, enviame un correo haciendo click <a href="mailto:augusto.hassel@gmail.com">aquí</a> y empecemos a hablar!</strong><p>

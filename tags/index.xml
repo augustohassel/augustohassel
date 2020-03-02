@@ -50,7 +50,7 @@
     <item>
       <title>GCloud</title>
       <link>/tags/gcloud/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/gcloud/</guid>
       <description></description>
@@ -59,7 +59,7 @@
     <item>
       <title>git</title>
       <link>/tags/git/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/git/</guid>
       <description></description>
@@ -68,7 +68,7 @@
     <item>
       <title>GitHub</title>
       <link>/tags/github/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/github/</guid>
       <description></description>
@@ -77,7 +77,7 @@
     <item>
       <title>Mailgun</title>
       <link>/tags/mailgun/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/mailgun/</guid>
       <description></description>
@@ -86,7 +86,7 @@
     <item>
       <title>Mandrill</title>
       <link>/tags/mandrill/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/mandrill/</guid>
       <description></description>
@@ -95,16 +95,16 @@
     <item>
       <title>PlumbeR</title>
       <link>/tags/plumber/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/plumber/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R Lang</title>
+      <title>R LanG</title>
       <link>/tags/r-lang/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/r-lang/</guid>
       <description></description>
@@ -113,7 +113,7 @@
     <item>
       <title>RStudio</title>
       <link>/tags/rstudio/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/rstudio/</guid>
       <description></description>
@@ -122,7 +122,7 @@
     <item>
       <title>RStudio Server</title>
       <link>/tags/rstudio-server/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/rstudio-server/</guid>
       <description></description>
@@ -131,9 +131,27 @@
     <item>
       <title>tidyverse</title>
       <link>/tags/tidyverse/</link>
-      <pubDate>Fri, 03 Jan 2020 22:44:05 -0300</pubDate>
+      <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/tags/tidyverse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Library</title>
+      <link>/tags/library/</link>
+      <pubDate>Thu, 02 Jan 2020 22:44:05 -0300</pubDate>
+      
+      <guid>/tags/library/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Packages</title>
+      <link>/tags/packages/</link>
+      <pubDate>Thu, 02 Jan 2020 22:44:05 -0300</pubDate>
+      
+      <guid>/tags/packages/</guid>
       <description></description>
     </item>
     

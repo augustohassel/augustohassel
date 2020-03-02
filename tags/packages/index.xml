@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Restfull API on HasselPunk</title>
-    <link>/tags/restfull-api/</link>
-    <description>Recent content in Restfull API on HasselPunk</description>
+    <title>Packages on HasselPunk</title>
+    <link>/tags/packages/</link>
+    <description>Recent content in Packages on HasselPunk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-AR</language>
     <lastBuildDate>Thu, 02 Jan 2020 22:44:05 -0300</lastBuildDate>
     
-	<atom:link href="/tags/restfull-api/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/packages/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
