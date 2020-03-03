@@ -17,28 +17,28 @@
       <pubDate>Fri, 21 Feb 2020 01:45:14 -0300</pubDate>
       
       <guid>/blog/basicloginmodularizado/</guid>
-      <description>Para los ansiosos como yo: aquí el proyecto en GitHub desde donde pueden obtener una versión básica funcional!
+      <description>Para los ansiosos como yo: aquí el proyecto en GitHub desde donde pueden obtener una versión básica funcional! 😄
 Siendo este es mi primero posteo, va a existir mucha referencia a desarrollos que me encantaría poder explayar pero prometo intentar mantenerme concentrado y, en todo caso, si gustan, continuaré explayándome en otra ocasión.
 La motivaciónDesde el momento en que empecé a armar tableros en Shiny me encontré con la necesidad de brindar permisos a usuarios.</description>
     </item>
     
     <item>
       <title>HasselPunk BO Companion</title>
-      <link>/projects/creations/hasselpunk-bo-companion/</link>
+      <link>/projects/hasselpunk-bo-companion/</link>
       <pubDate>Sat, 04 Jan 2020 22:44:05 -0300</pubDate>
       
-      <guid>/projects/creations/hasselpunk-bo-companion/</guid>
+      <guid>/projects/hasselpunk-bo-companion/</guid>
       <description>HasselPunk BO Companion es una suite de soluciones dedicada a agilizar procesos dentro de una Sociedad de Bolsa.La instalación básica consta de los siguientes tableros:
 Home. El punto de partida: ir!Administrador. Gestión y administración de usuarios.Recursos Humanos. Gestión y administración de personas.Comercial. Acceso a información y análisis de clientes.Tablero AdministradorDentro de este tablero se puede:Crear usuariosRecuperar contraseñasGestionar permisos: cada tablero tiene 3 niveles de permisos distintos para poder habilitar la información únicamente a los usuarios que la necesitenVer últimas conexionesVincular managers con usuarios: esto es muy útil cuando se quiere brindar permisos al tablero de Comercial a los productores y/o managers de cuentas, para que vean únicamente sus cuentas vinculadasTablero Recursos HumanosAquí se podrá:Dar de alta personas.</description>
     </item>
     
     <item>
       <title>Conector rRofex</title>
-      <link>/projects/creations/rrofex/</link>
+      <link>/projects/rrofex/</link>
       <pubDate>Thu, 02 Jan 2020 22:44:05 -0300</pubDate>
       
-      <guid>/projects/creations/rrofex/</guid>
-      <description>rRofex es una librería de R que permite conectarse al Mercado de Futuros de Matba Rofex.Para mayor información sobre la misma, por favor ver la documentación completa en el GitHub de Matba Rofex.Ver presentación!</description>
+      <guid>/projects/rrofex/</guid>
+      <description>rRofex es una librería de R que permite conectarse al Mercado de Futuros de Matba Rofex.Para mayor información sobre la misma, por favor ver la documentación completa en el GitHub de Matba Rofex.Ver a la presentación!</description>
     </item>
     
     <item>

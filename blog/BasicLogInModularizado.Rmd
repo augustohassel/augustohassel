@@ -3,7 +3,7 @@ title: "Basic LogIn Modularizado"
 author: "Augusto Hassel"
 date: 2020-02-21T01:45:14-03:00
 featured: true
-image: "/img/login.jpg"
+image: "/img/login.jpeg"
 description: "Cómo armar un login básico modular en Shiny"
 tags: ["Modules", "Shiny", "Dashboard", "BusinessIntelligence"]
 ---
@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 <br>
 
-> Para los ansiosos como yo: aquí el [proyecto en GitHub](https://github.com/augustohassel/BasicLogInModule) desde donde pueden obtener una versión básica funcional!
+> Para los ansiosos como yo: aquí el [proyecto en GitHub](https://github.com/augustohassel/BasicLogInModule) desde donde pueden obtener una versión básica funcional! :grin:
 
 Siendo este es mi primero posteo, va a existir mucha referencia a desarrollos que me encantaría poder explayar pero prometo intentar mantenerme concentrado y, en todo caso, si gustan, continuaré explayándome en otra ocasión. 
 

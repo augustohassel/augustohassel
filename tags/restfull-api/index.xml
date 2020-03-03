@@ -13,11 +13,11 @@
     
     <item>
       <title>Conector rRofex</title>
-      <link>/projects/creations/rrofex/</link>
+      <link>/projects/rrofex/</link>
       <pubDate>Thu, 02 Jan 2020 22:44:05 -0300</pubDate>
       
-      <guid>/projects/creations/rrofex/</guid>
-      <description>rRofex es una librería de R que permite conectarse al Mercado de Futuros de Matba Rofex.Para mayor información sobre la misma, por favor ver la documentación completa en el GitHub de Matba Rofex.Ver presentación!</description>
+      <guid>/projects/rrofex/</guid>
+      <description>rRofex es una librería de R que permite conectarse al Mercado de Futuros de Matba Rofex.Para mayor información sobre la misma, por favor ver la documentación completa en el GitHub de Matba Rofex.Ver a la presentación!</description>
     </item>
     
   </channel>

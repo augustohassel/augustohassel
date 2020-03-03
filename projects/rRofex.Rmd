@@ -1,0 +1,16 @@
+---
+title: "Conector rRofex"
+author: "Augusto Hassel"
+description: "Es una librería en R que permite conectarse al mercado de futuros Matba Rofex."
+date: 2020-01-02T22:44:05-03:00
+featured: true
+image: "/img/r-rofex.jpeg"
+link: https://github.com/matbarofex/rRofex
+tags: ["R LanG", "tidyverse", "git", "GitHub", "RStudio", "Restfull API", "Packages", "Library"]
+---
+
+<p><strong>rRofex</strong> es una librería de R que permite conectarse al Mercado de Futuros de Matba Rofex.</p>
+<p>Para mayor información sobre la misma, por favor ver la documentación completa en el <a href='https://github.com/matbarofex/rRofex' target='_blank'>GitHub de Matba Rofex</a>.</p>
+<p width="700px" height="auto"><img src='/img/r-rofex-2.png' width=auto height=300px></p>
+<p><a href='https://rpubs.com/augustohassel/rRofex-260619' target='_blank'>Ver a la presentación!</a></p>
+
