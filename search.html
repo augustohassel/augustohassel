@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>HasselPunk | GCloud</title>
-  <meta property="og:title" content="GCloud" />
-  <meta property="og:image" content="https://www.hasselpunk.com/" />
+  <title>HasselPunk | Search Results</title>
+  <meta property="og:title" content="Search Results" />
+  <meta property="og:image" content="" />
   <meta name="description" content="">
   <meta property="og:description" content="" />
   <meta name="author" content="Augusto Hassel">
@@ -73,20 +73,24 @@
 
   <div class="container-fluid p-0">
     
-
-<section class="resume-section p-3 p-lg-5 d-flex d-column">
-  <div class="my-auto">
-
-  Content tagged with  <span class="tag">GCloud</span>
-    <ul>
-      
-          <li>
-             <a href="/projects/hasselpunk-bo-companion/">HasselPunk BO Companion</a>
-         </li>
-      
-    </ul>
+<section class="resume-section p-3 p-lg-5 d-flex flex-column">
+  <div class="my-auto" >
+    <form action="/search.html">
+      <input id="search-query" name="s"/>
+    </form>
+    <div id="search-results">
+     <h3>Matching pages</h3>
+    </div>
   </div>
 </section>
+<script id="search-result-template" type="text/x-js-template">
+    <div id="summary-${key}">
+      <h4><a href="${link}">${title}</a></h4>
+      <p>${snippet}</p>
+      ${ isset tags }<p>Tags: ${tags}</p>${ end }
+      ${ isset categories }<p>Categories: ${categories}</p>${ end }
+    </div>
+</script>
 
 
     <span style="color: #999999; font-size: 60%;">&nbsp;© HasselPunk 2020 + <a href="https://themes.gohugo.io/hugo-resume" target="_blank">Hugo Resume</a></span>
@@ -109,7 +113,9 @@
     gtag('config', 'UA-151526241-2');
   </script>
   
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.0/fuse.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
+<script src="/js/search.js"></script>
 
-  
 </body>
 </html>
