@@ -3,7 +3,7 @@ title: "Exponiendo Funciones de R en la Nube: Parte 1"
 author: "Augusto Hassel"
 date: 2020-03-09T23:45:14-03:00
 featured: true
-image: "/blog/ExponiendoFuncionesDeREnLaNube-Parte_1/plumber.png"
+image: "/img/blog/ExponiendoFuncionesDeREnLaNube-Parte_1/plumber.png"
 description: "Como exponer funciones de R en la nube utilizando PlumbeR, Docker y Google Cloud. Automatizando informes en HTML y PDF."
 tags: ["API", "PlumbeR", "Docker", "Google Cloud"]
 ---
@@ -42,7 +42,7 @@ Por otro lado, específicamente en este posteo, presentaremos una manera fácil 
 
 Con las últimas versiones de RStudio, se puede crear una API con PlumbeR directamente desde el menú! Tan sencillo como ir a "File > Plumber API..." y luego hacer click en "Run API":
 
-<p align="center" width="700px" height="auto"> <img src='/blog/ExponiendoFuncionesDeREnLaNube-Parte_1/CreatePlumber.gif'/></p>
+<p align="center" width="700px" height="auto"> <img src='/img/blog/ExponiendoFuncionesDeREnLaNube-Parte_1/CreatePlumber.gif'/></p>
 
 Ya con nuestra API demo funcionando, tenemos que entender que todo lo que estamos exponiendo, es una función y para ellos debemos de tener presente ciertas cuestiones propias de PlumbeR:
 
