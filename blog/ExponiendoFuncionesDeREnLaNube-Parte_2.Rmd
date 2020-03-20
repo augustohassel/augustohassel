@@ -35,7 +35,7 @@ Mantenemos los mismos supuestos que en el posteo anterior y agregamos uno:
 
 ### Manos a la obra!
 
-**¿Qué es Docker?** Docker es un proyecto Open Source con el cual podemos empaquetar aplicaciones en **contenedores**, los cuales contienen todo lo necesario para que dichas aplicaciones se puedan ejecutar. Entonces... *¿qué es un contenedor?* Bueno, un contenedor es una unidad estandarizada de software que empaqueta todo el código y todas sus dependencias, de manera que una aplicación pueda correr rápidamente independientemente del ambiente en el que se encuentre. Es así que los contenedores aislan las aplicaciones del ambiente en el que se encuentran, de manera tal que siga funcionando, a pesar de que corran en instancias de desarrollo distintas. 
+**¿Qué es Docker?** Docker es un proyecto Open Source con el cual podemos empaquetar aplicaciones en **contenedores**, los cuales contienen todo lo necesario para que dichas aplicaciones se puedan ejecutar. Entonces... *¿qué es un contenedor?* Bueno, un contenedor es una unidad estandarizada de software que empaqueta todo el código y todas sus dependencias, de manera que una aplicación pueda correr rápidamente independientemente del ambiente en el que se encuentre. Es así que los contenedores aíslan las aplicaciones del ambiente en el que se encuentran, de manera tal que siga funcionando, a pesar de que corran en instancias de desarrollo distintas. 
 
 Hoy los contenedores de Docker se puede usar en todos lados: Linux, Windows, Data Centers, la Nube, Serverless (este sería nuestro caso!!!)
 
@@ -76,7 +76,7 @@ Uno de los grandes beneficios de Docker es la gran comunidad que hay detrás cre
 - The Rocker Prokject: https://www.rocker-project.org/ 
 - Documentación sobre comandos de Docker: https://docs.docker.com/reference/
 
-> Si se ponen a ver las imágenes del proyecto Rocker, verán que hay imágenes que ya bienen preparadas para correr Shiny o RStudio Server directamente dockerizadas!!!
+> Si se ponen a ver las imágenes del proyecto Rocker, verán que hay imágenes que ya vienen preparadas para correr Shiny o RStudio Server directamente dockerizadas!!!
 
 Vamos a probar descargando una imagen oficial que contiene R. Para hacerlo, tenemos que usar el comando `docker pull` con la imagen en cuestión: `sudo docker pull r-base`. Esta es la pantalla que verán si todo va bien:
 
@@ -160,7 +160,7 @@ Lo que está sucediendo es lo siguiente:
 - El primer **RUN** actualiza ciertos paquetes en Linux para hacer compatible ciertas librerías de R, por ejemplo, para poder publicar los PDFs.
 - Los **RUN**s subsiguientes instalan librerías de R. Esto podría haber estado en un mismo archivo de configuración y ser importado directamente con un solo RUN.
 - Por último copiamos los arhivos con **COPY**.
-- Finalmente indicamos el comando princippal que se utilizará en la imagen a través de **ENTRYPOINT**.
+- Finalmente indicamos el comando principal que se utilizará en la imagen a través de **ENTRYPOINT**.
 
 El archivo **main.R** contiene el setup inicial de plumber, el llamado de la librería, la lectura del archivo **plumber.R** y la configuración del puerto.
 
@@ -174,12 +174,12 @@ Finalmente, para ejectutar la imagen y crear el contenedor vamos a usar el coman
 
 > En caso de que no te haya funcionado, probablemente tengas que agregar una línea adicional en el Dockerfile antes de ENTRYPOIDNT: `ENV PORT=80`. Con esto te aseguraras de que la variable PORT está expuesta al contenedor.
 
-Finalmente, **si queremos ver que está funcionando todo correctamente, no tenemos más que ir a nuestro navegador y colocar la ruta (http://127.0.0.1).**
+Finalmente, **si queremos ver que está funcionando todo correctamente, no tenemos más que ir a nuestro navegador y colocar la ruta http://127.0.0.1.**
 
 <p align="center" width="50px" height="auto"> <img src='/img/blog/ExponiendoFuncionesDeREnLaNube-Parte_2/docker_11.png' style='max-width: 65%'/></p>
 
 ### Lo logramos!
 
-**Hemos logramos encapsultar nuestra API mediante Docker!!!** Existen otrso beneficios de usar Docker pero deberán quedar para otros posteos en el futuro! :fire:
+**Hemos encapsulado nuestra API mediante Docker!!!** Existen otros beneficios de usar Docker pero quedarán para otros posteos en el futuro! :fire:
 
 En siguiente posteo veremos como llevar finalmente nuestra API a la nube usando integración contínua con GitHub + Google Build + Google Run! :cloud: :rocket:
