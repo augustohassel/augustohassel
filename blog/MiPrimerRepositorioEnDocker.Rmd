@@ -34,7 +34,9 @@ Probablemente en este punto estes pensando *"quizás con unas horas más de inve
 Fueron dos charlas con compañeros de trabajo las que me impulsaron por este camino y las puedo resumir así:
 
 - "¿Cómo lo estás corriendo?" - P.V.
-- "El problema no es Docker" - N.L.
+- "El problema no es Docker" - [Nico Lino](https://twitter.com/NicolasLin0)
+
+Muchas gracias a ambos por la guía que me brindaron!!! :clap:
 
 
 #### ¿Cómo lo estás corriendo?
