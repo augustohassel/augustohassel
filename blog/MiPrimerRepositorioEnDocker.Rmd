@@ -33,8 +33,8 @@ Probablemente en este punto estes pensando *"quizás con unas horas más de inve
 
 Fueron dos charlas con compañeros de trabajo las que me impulsaron por este camino y las puedo resumir así:
 
-- "¿Cómo lo estás corriendo?"
-- "El problema no es Docker"
+- "¿Cómo lo estás corriendo?" - P.V.
+- "El problema no es Docker" - N.L.
 
 
 #### ¿Cómo lo estás corriendo?
