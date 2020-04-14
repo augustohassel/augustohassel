@@ -6,7 +6,7 @@
     <description>Recent content in Tags on HasselPunk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-AR</language>
-    <lastBuildDate>Fri, 20 Mar 2020 23:45:14 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 23:45:14 -0300</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>API</title>
       <link>/tags/api/</link>
-      <pubDate>Fri, 20 Mar 2020 23:45:14 -0300</pubDate>
+      <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
       
       <guid>/tags/api/</guid>
       <description></description>
@@ -23,9 +23,54 @@
     <item>
       <title>Docker</title>
       <link>/tags/docker/</link>
-      <pubDate>Fri, 20 Mar 2020 23:45:14 -0300</pubDate>
+      <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
       
       <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker-Compose</title>
+      <link>/tags/docker-compose/</link>
+      <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
+      
+      <guid>/tags/docker-compose/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker-Hub</title>
+      <link>/tags/docker-hub/</link>
+      <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
+      
+      <guid>/tags/docker-hub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PlumbeR</title>
+      <link>/tags/plumber/</link>
+      <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
+      
+      <guid>/tags/plumber/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>/tags/ubuntu/</link>
+      <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
+      
+      <guid>/tags/ubuntu/</guid>
       <description></description>
     </item>
     
@@ -35,33 +80,6 @@
       <pubDate>Fri, 20 Mar 2020 23:45:14 -0300</pubDate>
       
       <guid>/tags/google-cloud/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>/tags/linux/</link>
-      <pubDate>Fri, 20 Mar 2020 23:45:14 -0300</pubDate>
-      
-      <guid>/tags/linux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>PlumbeR</title>
-      <link>/tags/plumber/</link>
-      <pubDate>Fri, 20 Mar 2020 23:45:14 -0300</pubDate>
-      
-      <guid>/tags/plumber/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ubuntu</title>
-      <link>/tags/ubuntu/</link>
-      <pubDate>Fri, 20 Mar 2020 23:45:14 -0300</pubDate>
-      
-      <guid>/tags/ubuntu/</guid>
       <description></description>
     </item>
     
