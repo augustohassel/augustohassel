@@ -6,7 +6,7 @@ date: 2020-01-02T22:44:05-03:00
 featured: true
 image: "/img/r-rofex.jpeg"
 link: https://github.com/matbarofex/rRofex
-tags: ["R LanG", "tidyverse", "git", "GitHub", "RStudio", "Restfull API", "Packages", "Library"]
+tags: ["R Language", "tidyverse", "git", "GitHub", "RStudio", "Restfull API", "Packages", "Library"]
 ---
 
 <p><strong>rRofex</strong> es una librería de R que permite conectarse al Mercado de Futuros de Matba Rofex.</p>

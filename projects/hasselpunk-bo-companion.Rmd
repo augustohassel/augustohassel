@@ -6,7 +6,7 @@ featured: true
 image: "/img/hasselpunk-logo.jpeg"
 link: "https://demo.hasselpunk.com"
 description: "Es una suite de soluciones en la nube orientada a ayudar y complementar a quienes trabajan dentro de una Sociedad de Bolsa."
-tags: ["R LanG", "Shiny", "tidyverse", "PlumbeR", "GCloud", "git", "GitHub", "RStudio", "RStudio Server", "Mailgun", "Mandrill"]
+tags: ["R Language", "Shiny", "tidyverse", "PlumbeR", "GCloud", "git", "GitHub", "RStudio", "RStudio Server", "Mailgun", "Mandrill"]
 ---
 
 <p>HasselPunk BO Companion es una suite de soluciones dedicada a agilizar procesos dentro de una Sociedad de Bolsa.</p>

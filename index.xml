@@ -12,6 +12,15 @@
     
     
     <item>
+      <title>Conector API BO (MtR)</title>
+      <link>/projects/acyrsa/</link>
+      <pubDate>Wed, 22 Apr 2020 22:44:05 -0300</pubDate>
+      
+      <guid>/projects/acyrsa/</guid>
+      <description>acyRsa es una librería de R que permite conectarse a la API de Back Office de Matba Rofex.Para mayor información sobre la misma, ingresa al siguiente link para ver la documentación completa: documentación acyRsa.Si necesitas usar otros métodos de la API que no estén disponibles actualmente, hacémelo saber en aquíApoyá este desarrollo invitándome un café!</description>
+    </item>
+    
+    <item>
       <title>Mi Primer Repositorio en Docker</title>
       <link>/blog/miprimerrepositorioendocker/</link>
       <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>

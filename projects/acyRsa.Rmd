@@ -1,0 +1,18 @@
+---
+title: "Conector API BO (MtR)"
+author: "Augusto Hassel"
+description: "Es una librería en R que permite conectarse a la API de Back Office de Matba Rofex."
+date: 2020-04-22T22:44:05-03:00
+featured: true
+image: "/img/logo_acyRsa.png"
+link: https://www.hasselpunk.com/acyRsa
+tags: ["R Language", "pgkdown", "GitHub", "RStudio", "Restfull API", "Packages", "Library", "Matba Rofex", "ACyRSA"]
+---
+
+<p><strong>acyRsa</strong> es una librería de R que permite conectarse a la API de Back Office de Matba Rofex.</p>
+<p>Para mayor información sobre la misma, ingresa al siguiente link para ver la documentación completa: <a href='www.hasselpunk.com/acyRsa' target='_blank'>documentación acyRsa</a>.</p>
+<p>Si necesitas usar otros métodos de la API que no estén disponibles actualmente, hacémelo saber en <a href='https://github.com/augustohassel/acyRsa/issues' target='_blank'>aquí</a></p>
+<p>Apoyá este desarrollo invitándome un café!</a>
+<p><a href="https://www.buymeacoffee.com/augustohassel" target="_blank"><img src='https://cdn.buymeacoffee.com/buttons/arial-blue.png' alt="Buy Me A Coffee" align="left" height="38"/></a></p>
+<br><br>
+

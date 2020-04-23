@@ -4,8 +4,68 @@
   
   <url>
     <loc>/projects/</loc>
-    <lastmod>2020-01-04T22:44:05-03:00</lastmod>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/acyrsa/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/projects/acyrsa/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/git/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/github/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/library/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/matba-rofex/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/packages/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/pgkdown/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/r-language/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/restfull-api/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rstudio/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
   </url>
   
   <url>
@@ -46,11 +106,6 @@
   
   <url>
     <loc>/tags/plumber/</loc>
-    <lastmod>2020-04-14T23:45:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-04-14T23:45:14-03:00</lastmod>
   </url>
   
@@ -110,16 +165,6 @@
   </url>
   
   <url>
-    <loc>/tags/git/</loc>
-    <lastmod>2020-01-04T22:44:05-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/github/</loc>
-    <lastmod>2020-01-04T22:44:05-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/projects/hasselpunk-bo-companion/</loc>
     <lastmod>2020-01-04T22:44:05-03:00</lastmod>
   </url>
@@ -135,16 +180,6 @@
   </url>
   
   <url>
-    <loc>/tags/r-lang/</loc>
-    <lastmod>2020-01-04T22:44:05-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/rstudio/</loc>
-    <lastmod>2020-01-04T22:44:05-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/rstudio-server/</loc>
     <lastmod>2020-01-04T22:44:05-03:00</lastmod>
   </url>
@@ -156,21 +191,6 @@
   
   <url>
     <loc>/projects/rrofex/</loc>
-    <lastmod>2020-01-02T22:44:05-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/library/</loc>
-    <lastmod>2020-01-02T22:44:05-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/packages/</loc>
-    <lastmod>2020-01-02T22:44:05-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/restfull-api/</loc>
     <lastmod>2020-01-02T22:44:05-03:00</lastmod>
   </url>
   

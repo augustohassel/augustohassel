@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Proyectos on HasselPunk</title>
-    <link>/projects/</link>
-    <description>Recent content in Proyectos on HasselPunk</description>
+    <title>R Language on HasselPunk</title>
+    <link>/tags/r-language/</link>
+    <description>Recent content in R Language on HasselPunk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-AR</language>
     <lastBuildDate>Wed, 22 Apr 2020 22:44:05 -0300</lastBuildDate>
     
-	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/r-language/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
