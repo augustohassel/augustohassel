@@ -21,7 +21,7 @@ Este posteo no lo tenía planificado y surge de querer bajar a *papel* varias le
 
 ### El desafío
 
-El objetivo que tenía por delante era desarrollar una API que generase un informe para ciertos clientes según ciertos parámetros. En sí, no era algo complicado, además ya hemos visto cómo generar una API con **Plumber**, armar informes con **RMarkdown** y encapsusarlo todo con **Docker**. 
+El objetivo que tenía por delante era desarrollar una API que generase un informe para ciertos clientes según ciertos parámetros. En sí, no era algo complicado, además ya hemos visto [cómo generar una API con **Plumber**](https://www.hasselpunk.com/blog/exponiendofuncionesderenlanube-parte_1/), [armar informes con **RMarkdown** y encapsusarlo todo con **Docker**](https://www.hasselpunk.com/blog/exponiendofuncionesderenlanube-parte_2/). 
 
 El problema vino cuando necesite acceder a una base de datos de MSSQL (SQL Server) desde dentro del contenedor de Docker. Y ustedes dirán... **¿dónde esta el problema?** No debería de haber tenido ninguno, ya que tanto localmente como en producción puedo conectarme sin ningún inconveniente. Tampoco encontré la respuesta al por qué no pude, pero a fines prácticos, tampoco importa.... 
 
