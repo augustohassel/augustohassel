@@ -4,7 +4,7 @@ author: "Augusto Hassel"
 description: "Es una librería en R que permite conectarse al mercado de futuros Matba Rofex."
 date: 2020-01-02T22:44:05-03:00
 featured: true
-image: "/projects/rRofex/logo.png"
+image: "/img/projects/rRofex/logo.png"
 link: https://matbarofex.github.io/rRofex
 tags: ["R Language", "tidyverse", "git", "GitHub", "RStudio", "Restfull API", "Packages", "Library"]
 ---
@@ -13,6 +13,6 @@ tags: ["R Language", "tidyverse", "git", "GitHub", "RStudio", "Restfull API", "P
 <p>Es un proyecto OpenSource desarrollado desde Primary, empresa de tecnología de Matba Rofex.</p>
 <p>Esta librería se encuentra publicada oficialmente en <a href='https://cran.r-project.org/package=rRofex' target='_blank'>CRAN</a> y su versión de desarrollo está en <a href='https://github.com/matbarofex/rRofex' target='_blank'>GitHub</a></p>
 <p>Para mayor información sobre la misma visitá <a href='https://matbarofex.github.io/rRofex' target='_blank'>rRofex</a>.</p>
-<p width="700px" height="auto"><img src='/projects/rRofex/r-rofex-2.png' width=auto height=300px></p>
+<p width="700px" height="auto"><img src='/img//projects/rRofex/r-rofex-2.png' width=auto height=300px></p>
 <p><a href='https://rpubs.com/augustohassel/rRofex-260619' target='_blank'>Ver a la presentación!</a></p>
 
