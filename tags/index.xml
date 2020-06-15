@@ -6,10 +6,82 @@
     <description>Recent content in Tags on HasselPunk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-AR</language>
-    <lastBuildDate>Wed, 22 Apr 2020 22:44:05 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 18:45:14 -0300</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anthos</title>
+      <link>/tags/anthos/</link>
+      <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
+      
+      <guid>/tags/anthos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Run</title>
+      <link>/tags/cloud-run/</link>
+      <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
+      
+      <guid>/tags/cloud-run/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cloud Run for Anthos</title>
+      <link>/tags/cloud-run-for-anthos/</link>
+      <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
+      
+      <guid>/tags/cloud-run-for-anthos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>/tags/docker/</link>
+      <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
+      
+      <guid>/tags/docker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Docker-Hub</title>
+      <link>/tags/docker-hub/</link>
+      <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
+      
+      <guid>/tags/docker-hub/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google Cloud</title>
+      <link>/tags/google-cloud/</link>
+      <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
+      
+      <guid>/tags/google-cloud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>/tags/kubernetes/</link>
+      <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
+      
+      <guid>/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shiny</title>
+      <link>/tags/shiny/</link>
+      <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
+      
+      <guid>/tags/shiny/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ACyRSA</title>
@@ -111,29 +183,11 @@
     </item>
     
     <item>
-      <title>Docker</title>
-      <link>/tags/docker/</link>
-      <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
-      
-      <guid>/tags/docker/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Docker-Compose</title>
       <link>/tags/docker-compose/</link>
       <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
       
       <guid>/tags/docker-compose/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Docker-Hub</title>
-      <link>/tags/docker-hub/</link>
-      <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
-      
-      <guid>/tags/docker-hub/</guid>
       <description></description>
     </item>
     
@@ -161,15 +215,6 @@
       <pubDate>Tue, 14 Apr 2020 23:45:14 -0300</pubDate>
       
       <guid>/tags/ubuntu/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Google Cloud</title>
-      <link>/tags/google-cloud/</link>
-      <pubDate>Fri, 20 Mar 2020 23:45:14 -0300</pubDate>
-      
-      <guid>/tags/google-cloud/</guid>
       <description></description>
     </item>
     
@@ -206,15 +251,6 @@
       <pubDate>Fri, 21 Feb 2020 01:45:14 -0300</pubDate>
       
       <guid>/tags/modules/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shiny</title>
-      <link>/tags/shiny/</link>
-      <pubDate>Fri, 21 Feb 2020 01:45:14 -0300</pubDate>
-      
-      <guid>/tags/shiny/</guid>
       <description></description>
     </item>
     

@@ -9,6 +9,62 @@
   </url>
   
   <url>
+    <loc>/tags/anthos/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/cloud-run/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/cloud-run-for-anthos/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/docker/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/docker-hub/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/google-cloud/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/kubernetes/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/blog/2020-06-13serverlessshinyengooglecloud/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/shiny/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-06-15T18:45:14-03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/tags/acyrsa/</loc>
     <lastmod>2020-04-22T22:44:05-03:00</lastmod>
   </url>
@@ -64,33 +120,12 @@
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/api/</loc>
     <lastmod>2020-04-14T23:45:14-03:00</lastmod>
   </url>
   
   <url>
-    <loc>/blog/</loc>
-    <lastmod>2020-04-14T23:45:14-03:00</lastmod>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/docker/</loc>
-    <lastmod>2020-04-14T23:45:14-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/docker-compose/</loc>
-    <lastmod>2020-04-14T23:45:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/docker-hub/</loc>
     <lastmod>2020-04-14T23:45:14-03:00</lastmod>
   </url>
   
@@ -116,11 +151,6 @@
   
   <url>
     <loc>/blog/exponiendofuncionesderenlanube-parte_2/</loc>
-    <lastmod>2020-03-20T23:45:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/google-cloud/</loc>
     <lastmod>2020-03-20T23:45:14-03:00</lastmod>
   </url>
   
@@ -151,11 +181,6 @@
   
   <url>
     <loc>/tags/modules/</loc>
-    <lastmod>2020-02-21T01:45:14-03:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/shiny/</loc>
     <lastmod>2020-02-21T01:45:14-03:00</lastmod>
   </url>
   

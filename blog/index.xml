@@ -6,10 +6,20 @@
     <description>Recent content in Blog on HasselPunk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-AR</language>
-    <lastBuildDate>Tue, 14 Apr 2020 23:45:14 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 18:45:14 -0300</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Serverless Shiny en Google Cloud</title>
+      <link>/blog/2020-06-13serverlessshinyengooglecloud/</link>
+      <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
+      
+      <guid>/blog/2020-06-13serverlessshinyengooglecloud/</guid>
+      <description>TL;DR Es posible usar Cloud Run para deployar una aplicación en Shiny, aunque si necesitas websocket tendrás que dar una vuelta más y usar Cloud Run for Anthos para subir la aplicación a un cluster de Kubernetes. Esta es mi aplicación: demo-shiny.hasselpunk.com y aquí está el código en GitHub
+La idea con la que arranqué a esribir este post fue ir mencionando las cosas que fui haciendo para lograr correr una aplicación de Shiny en Google Cloud usando Cloud Run en vez de levantar una máquina virtual que contenga al servidor.</description>
+    </item>
     
     <item>
       <title>Mi Primer Repositorio en Docker</title>
@@ -38,7 +48,7 @@ El desafíoEl objetivo que tenía por delante era desarrollar una API que gener
       <pubDate>Mon, 09 Mar 2020 23:45:14 -0300</pubDate>
       
       <guid>/blog/exponiendofuncionesderenlanube-parte_1/</guid>
-      <description>TL;DR: El resultado final de este trabajo lo pueden encontrar en el siguiente link https://demo-api.hasselpunk.com/ 😄
+      <description>TL;DR: El resultado final de este trabajo lo pueden encontrar en el siguiente link https://demo-api.hasselpunk.com/ 😁
 Este será el primer posteo de una serie de 3, los cuales tendrán dos intenciones: mostrar como exponer funciones de R en la nube y dejar por escrito ciertas recomendaciones que surgieron en el proceso de desarrollo. Estoy seguro que estos consejos servirán a más de uno (incluso a mi ‘yo’ del futuro!</description>
     </item>
     
@@ -48,7 +58,7 @@ El desafíoEl objetivo que tenía por delante era desarrollar una API que gener
       <pubDate>Fri, 21 Feb 2020 01:45:14 -0300</pubDate>
       
       <guid>/blog/basicloginmodularizado/</guid>
-      <description>Para los ansiosos como yo: aquí el proyecto en GitHub desde donde pueden obtener una versión básica funcional! 😄
+      <description>Para los ansiosos como yo: aquí el proyecto en GitHub desde donde pueden obtener una versión básica funcional! 😁
 Siendo este es mi primero posteo, va a existir mucha referencia a desarrollos que me encantaría poder explayar pero prometo intentar mantenerme concentrado y, en todo caso, si gustan, continuaré explayándome en otra ocasión.
 La motivaciónDesde el momento en que empecé a armar tableros en Shiny me encontré con la necesidad de brindar permisos a usuarios.</description>
     </item>
