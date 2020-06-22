@@ -13,7 +13,7 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 <br>
 
-> **TL;DR** Es posible usar **Cloud Run** para deployar una aplicación en **Shiny**, aunque si necesitas websocket tendrás que dar una vuelta más y usar **Cloud Run for Anthos** para subir la aplicación a un cluster de **Kubernetes**. Esta es mi aplicación: [demo-shiny.hasselpunk.com](https://demo-shiny.hasselpunk.com/) y aquí está el código en [GitHub](https://github.com/augustohassel/Demo-ShinyDockerRun)
+> **TL;DR** Es posible usar **Cloud Run** para deployar una aplicación en **Shiny**, aunque si necesitas websocket tendrás que dar una vuelta más y usar **Cloud Run for Anthos** para subir la aplicación a un cluster de **Kubernetes**. Esta es mi aplicación: [https://demo.hasselpunk.com/rRofex](https://demo.hasselpunk.com/rRofex) y aquí está el código en [GitHub](https://github.com/augustohassel/Demo-ShinyDockerRun)
 
 La idea con la que arranqué a esribir este post fue ir mencionando las cosas que fui haciendo para lograr correr una aplicación de Shiny en Google Cloud usando Cloud Run en vez de levantar una máquina virtual que contenga al servidor.
 
@@ -204,8 +204,9 @@ Lo último fue seguir el siguiente tutorial para que se pueda acceder con un dom
 
 El resultado queda a la vista: 
 
-> **Mi primer aplicación de Shiny corriendo en Kubernetes [demo-shiny.hasselpunk.com](https://demo-shiny.hasselpunk.com/) :heart_eyes:**
+> **Mi primer aplicación de Shiny corriendo en Kubernetes [https://demo.hasselpunk.com/rRofex](https://demo.hasselpunk.com/rRofex) :heart_eyes:**
 
-PD: si este blog te sirvió, me podes invitar un café con el siguiente botón!
+PD: si este blog te sirvió, me podes invitar un café con el siguiente botón!   
+PD2: Cambie la ubicación de la APP, en este momento no esta corriendo en Kubernetes para disminuir costos únicamente, pero es válido todo el posteo si es que quieren colocar su propia aplicación en Kubernetes!
 
 <a href="https://www.buymeacoffee.com/augustohassel" target="_blank"><img src='https://cdn.buymeacoffee.com/buttons/arial-blue.png' alt="Buy Me A Coffee" align="left" height="38"/></a><br><br>

@@ -17,7 +17,7 @@
       <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
       
       <guid>/blog/2020-06-13serverlessshinyengooglecloud/</guid>
-      <description>TL;DR Es posible usar Cloud Run para deployar una aplicación en Shiny, aunque si necesitas websocket tendrás que dar una vuelta más y usar Cloud Run for Anthos para subir la aplicación a un cluster de Kubernetes. Esta es mi aplicación: demo-shiny.hasselpunk.com y aquí está el código en GitHub
+      <description>TL;DR Es posible usar Cloud Run para deployar una aplicación en Shiny, aunque si necesitas websocket tendrás que dar una vuelta más y usar Cloud Run for Anthos para subir la aplicación a un cluster de Kubernetes. Esta es mi aplicación: https://demo.hasselpunk.com/rRofex y aquí está el código en GitHub
 La idea con la que arranqué a esribir este post fue ir mencionando las cosas que fui haciendo para lograr correr una aplicación de Shiny en Google Cloud usando Cloud Run en vez de levantar una máquina virtual que contenga al servidor.</description>
     </item>
     

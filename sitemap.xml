@@ -75,11 +75,6 @@
   </url>
   
   <url>
-    <loc>/tags/git/</loc>
-    <lastmod>2020-04-22T22:44:05-03:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/tags/github/</loc>
     <lastmod>2020-04-22T22:44:05-03:00</lastmod>
   </url>
@@ -186,6 +181,11 @@
   
   <url>
     <loc>/tags/gcloud/</loc>
+    <lastmod>2020-01-04T22:44:05-03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/git/</loc>
     <lastmod>2020-01-04T22:44:05-03:00</lastmod>
   </url>
   

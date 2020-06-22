@@ -20,7 +20,7 @@
   
   <link href="/css/resume.css" rel="stylesheet">
   <link href="/css/tweaks.css" rel="stylesheet">
-  <meta name="generator" content="Hugo 0.71.0" />
+  <meta name="generator" content="Hugo 0.72.0" />
   
    
   
@@ -110,7 +110,7 @@
 
 <p><br></p>
 <blockquote>
-<p><strong>TL;DR</strong> Es posible usar <strong>Cloud Run</strong> para deployar una aplicación en <strong>Shiny</strong>, aunque si necesitas websocket tendrás que dar una vuelta más y usar <strong>Cloud Run for Anthos</strong> para subir la aplicación a un cluster de <strong>Kubernetes</strong>. Esta es mi aplicación: <a href="https://demo-shiny.hasselpunk.com/">demo-shiny.hasselpunk.com</a> y aquí está el código en <a href="https://github.com/augustohassel/Demo-ShinyDockerRun">GitHub</a></p>
+<p><strong>TL;DR</strong> Es posible usar <strong>Cloud Run</strong> para deployar una aplicación en <strong>Shiny</strong>, aunque si necesitas websocket tendrás que dar una vuelta más y usar <strong>Cloud Run for Anthos</strong> para subir la aplicación a un cluster de <strong>Kubernetes</strong>. Esta es mi aplicación: <a href="https://demo.hasselpunk.com/rRofex">https://demo.hasselpunk.com/rRofex</a> y aquí está el código en <a href="https://github.com/augustohassel/Demo-ShinyDockerRun">GitHub</a></p>
 </blockquote>
 <p>La idea con la que arranqué a esribir este post fue ir mencionando las cosas que fui haciendo para lograr correr una aplicación de Shiny en Google Cloud usando Cloud Run en vez de levantar una máquina virtual que contenga al servidor.</p>
 <p>Hasta el momento, me he encontrado trabajando con <a href="https://cloud.google.com/run">Cloud Run</a> para subir APIs y, en conjunto con <a href="https://cloud.google.com/scheduler">Cloud Scheduler</a> para automatizar operaciones, pero esta fue mi primera vez usándolo con <a href="https://shiny.rstudio.com/">Shiny</a>.</p>
@@ -275,9 +275,10 @@ timeout: 14400s</code></pre>
 <p>Lo último fue seguir el siguiente tutorial para que se pueda acceder con un dominio personalizado: <a href="https://cloud.google.com/run/docs/gke/auto-tls?hl=es">habilitar las conexiones https y los certificados TLS automáticos</a></p>
 <p>El resultado queda a la vista:</p>
 <blockquote>
-<p><strong>Mi primer aplicación de Shiny corriendo en Kubernetes <a href="https://demo-shiny.hasselpunk.com/">demo-shiny.hasselpunk.com</a> 😍</strong></p>
+<p><strong>Mi primer aplicación de Shiny corriendo en Kubernetes <a href="https://demo.hasselpunk.com/rRofex">https://demo.hasselpunk.com/rRofex</a> 😍</strong></p>
 </blockquote>
-<p>PD: si este blog te sirvió, me podes invitar un café con el siguiente botón!</p>
+<p>PD: si este blog te sirvió, me podes invitar un café con el siguiente botón!<br />
+PD2: Cambie la ubicación de la APP, en este momento no esta corriendo en Kubernetes para disminuir costos únicamente, pero es válido todo el posteo si es que quieren colocar su propia aplicación en Kubernetes!</p>
 <p><a href="https://www.buymeacoffee.com/augustohassel" target="_blank"><img src='https://cdn.buymeacoffee.com/buttons/arial-blue.png' alt="Buy Me A Coffee" align="left" height="38"/></a><br><br></p>
 </div>
 </div>
