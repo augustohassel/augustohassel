@@ -6,7 +6,7 @@
     <description>Recent content in Pins on HasselPunk</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>es-AR</language>
-    <lastBuildDate>Sun, 20 Sep 2020 18:45:14 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2020 22:11:14 -0300</lastBuildDate>
     
 	<atom:link href="/tags/pins/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Mejorando la Performance en Shiny con Pins</title>
       <link>/blog/mejorandoperformanceenshinyconpins/</link>
-      <pubDate>Sun, 20 Sep 2020 18:45:14 -0300</pubDate>
+      <pubDate>Mon, 28 Sep 2020 22:11:14 -0300</pubDate>
       
       <guid>/blog/mejorandoperformanceenshinyconpins/</guid>
       <description>TL;DR Si tenes tenes una aplicación en Shiny que tarda mucho en cargar debido a un proceso de la data que es intensivo en tiempo, y no es importante que el resultado se calcule en real time, entonces seguramente tengas que empezar a usar la librería pins.

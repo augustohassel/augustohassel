@@ -1,7 +1,7 @@
 ---
 title: "Mejorando la Performance en Shiny con Pins"
 author: "Augusto Hassel"
-date: 2020-09-20T18:45:14-03:00
+date: 2020-09-28T22:11:14-03:00
 featured: true
 image: "/img/blog/MejorandoPerformanceEnShinyConPins/pins-logo.png"
 description: "Cómo mejorar el tiempo de carga guardando data pre procesada en Google Cloud Storage."
