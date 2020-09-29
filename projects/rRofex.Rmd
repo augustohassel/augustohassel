@@ -13,6 +13,6 @@ tags: ["R Language", "tidyverse", "git", "GitHub", "RStudio", "Restfull API", "P
 <p>Es un proyecto OpenSource desarrollado desde Primary, empresa de tecnología de Matba Rofex.</p>
 <p>Esta librería se encuentra publicada oficialmente en <a href='https://cran.r-project.org/package=rRofex' target='_blank'>CRAN</a> y su versión de desarrollo está en <a href='https://github.com/matbarofex/rRofex' target='_blank'>GitHub</a></p>
 <p>Para mayor información sobre la misma visitá <a href='https://matbarofex.github.io/rRofex' target='_blank'>rRofex</a>.</p>
-<p width="700px" height="auto"><img src='/img//projects/rRofex/r-rofex-2.png' width=auto height=300px></p>
-<p><a href='https://rpubs.com/augustohassel/rRofex-260619' target='_blank'>Ver a la presentación!</a></p>
+<p>A continuación les dejo un webinar que armamos para dar a conocer su potencial, donde incluso hablamos de las posibilidades para usarla en trading algorítmico.</p>
+<iframe width="800" height="400" src="https://www.youtube.com/embed/WSTsyIvLEJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

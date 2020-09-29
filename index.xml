@@ -12,6 +12,16 @@
     
     
     <item>
+      <title>Mejorando la Performance en Shiny con Pins</title>
+      <link>/blog/mejorandoperformanceenshinyconpins/</link>
+      <pubDate>Sun, 20 Sep 2020 18:45:14 -0300</pubDate>
+      
+      <guid>/blog/mejorandoperformanceenshinyconpins/</guid>
+      <description>TL;DR Si tenes tenes una aplicación en Shiny que tarda mucho en cargar debido a un proceso de la data que es intensivo en tiempo, y no es importante que el resultado se calcule en real time, entonces seguramente tengas que empezar a usar la librería pins.
+Esta es la historia de cómo logré reducir el tiempo de carga de mi aplicación de 44 a 4 segundos, aunque lastimosamente no puedo mostrarla por cuestiones de privacidad… motivo por el cual tedrán que confiar en mi palabra y saber que quien llegue hasta el final tendrá su recompensa.</description>
+    </item>
+    
+    <item>
       <title>Serverless Shiny en Google Cloud</title>
       <link>/blog/2020-06-13serverlessshinyengooglecloud/</link>
       <pubDate>Mon, 15 Jun 2020 18:45:14 -0300</pubDate>
@@ -88,7 +98,7 @@ La motivaciónDesde el momento en que empecé a armar tableros en Shiny me enco
       <pubDate>Thu, 02 Jan 2020 22:44:05 -0300</pubDate>
       
       <guid>/projects/rrofex/</guid>
-      <description>rRofex es una librería de R que permite conectarse a Mercado de Capitales Argentino.Es un proyecto OpenSource desarrollado desde Primary, empresa de tecnología de Matba Rofex.Esta librería se encuentra publicada oficialmente en CRAN y su versión de desarrollo está en GitHubPara mayor información sobre la misma visitá rRofex.Ver a la presentación!</description>
+      <description>rRofex es una librería de R que permite conectarse a Mercado de Capitales Argentino.Es un proyecto OpenSource desarrollado desde Primary, empresa de tecnología de Matba Rofex.Esta librería se encuentra publicada oficialmente en CRAN y su versión de desarrollo está en GitHubPara mayor información sobre la misma visitá rRofex.A continuación les dejo un webinar que armamos para dar a conocer su potencial, donde incluso hablamos de las posibilidades para usarla en trading algorítmico.</description>
     </item>
     
     <item>
